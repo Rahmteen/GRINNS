@@ -5,7 +5,7 @@ import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap
 
 import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 
-import Assets from '../../components/Assets';
+import Assets from '../Assets';
 import axios from 'axios';
 
 const Landing = () => {
