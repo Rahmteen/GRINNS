@@ -1,8 +1,15 @@
 .landing-container {
-  width: 100%;
-  overflow-x: hidden;
+  .main-nav {
+    font-weight: 900;
+    a {
+      color: royalblue !important;
+      &:hover {
+        color: deeppink !important;
+      }
+    }
+  }
+
+
+
 }
 
-.assets-col {
-
-}
