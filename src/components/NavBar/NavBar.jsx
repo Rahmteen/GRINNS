@@ -8,7 +8,8 @@ import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 const NavBar = () => {
 	return (
 		<Fragment>
-			<Row>
+			<Container className="main-nav-container" fluid>
+			<Row className="main-nav-row">
 				<Col className="text-center" md={12}>
 					<Navbar bg="warning" variant="light">
 						<Container fluid>
@@ -31,7 +32,7 @@ const NavBar = () => {
 				</Col>
 			</Row>
 			<Row>
-				<Col className="text-right mt-2">
+				<Col className="text-right mt-2 social-nav">
 					<span>
 						<i className="fab fa-instagram-square mr-2"></i>
 						<i className="fab fa-twitter-square mr-2"></i>
@@ -41,6 +42,7 @@ const NavBar = () => {
 					</span>
 				</Col>
 			</Row>
+			</Container>
 		</Fragment>
 	);
 };

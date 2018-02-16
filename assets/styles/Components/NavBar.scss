@@ -1,0 +1,26 @@
+.main-nav-container {
+	.main-nav {
+		font-weight: 900;
+		font-size: 0.95em;
+		a { 
+            transition: 0.3s ease-in-out;
+			color: royalblue !important;
+			&:hover {
+                transition: 0.3s ease-in-out;
+				color: deeppink !important;
+			}
+		}
+	}
+	.social-nav {
+		color: white !important;
+		span {
+			i {
+				transition: 0.5s ease-in-out;
+				&:hover {
+					transition: 0.3s ease-in-out;
+					color: goldenrod !important;
+				}
+			}
+		}
+	}
+}
