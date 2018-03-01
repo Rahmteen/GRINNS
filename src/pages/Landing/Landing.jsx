@@ -20,4 +20,4 @@ const Landing = () => {
 
 export default Landing;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Fri Feb 16 12:11 2018 +0100" git commit --amend --no-edit --date "Fri Feb 16 12:11 2018 +0100"
+// LC_ALL=C GIT_COMMITTER_DATE="Mon Feb 19 09:11 2018 +0100" git commit --amend --no-edit --date "Mon Feb 19 09:11 2018 +0100"

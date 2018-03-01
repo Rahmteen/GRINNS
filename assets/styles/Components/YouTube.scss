@@ -1,6 +1,11 @@
 .youtube-container {
+    .youtube-title {
+        font-size: 1em;
+        font-weight: 600;
+        color: goldenrod
+    }
     .youtube-featured {
-        background-color: black;
+        background-color: goldenrod;
     }
     .youtube-player {
         width: 70vw !important;
