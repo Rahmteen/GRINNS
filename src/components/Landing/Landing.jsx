@@ -5,16 +5,14 @@ import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap
 
 import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 
-import NavBar from '../../components/NavBar';
-import YouTube from '../../components/Youtube/YouTube';
+import NavBar from '../NavBar';
+import YouTube from '../Youtube/YouTube';
 import axios from 'axios';
-import MerchBar from '../../components/MerchBar';
 
 const Landing = () => {
 	return (
 		<Container className="landing-container p-4" fluid>
         <NavBar />
-        <MerchBar />
         <YouTube />
 		</Container>
 	);
