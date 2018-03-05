@@ -8,7 +8,7 @@ import MerchBar from '../../components/MerchBar';
 const Merch = () => {
 	return (
 		<Fragment>
-        <MerchBar/>
+        <MerchBar></MerchBar>
 		</Fragment>
 	);
 };
