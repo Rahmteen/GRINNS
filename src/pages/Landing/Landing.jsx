@@ -11,13 +11,15 @@ import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
 import BG from '../../../assets/images/band/bg1.png';
 import MusicBar from '../../components/MusicBar';
+import BandImages from '../../components/BandImages';
 
 const Landing = () => {
 	return (
 		<Container className="landing-container">
-			<Row className="text-center mx-auto">
+			{/* <Row className="text-center mx-auto">
 				<Image src={BG} width="60%" className="mx-auto text-center" fluid></Image>
-			</Row>
+			</Row> */}
+			<BandImages></BandImages>
 			<Row className="underline mb-4 text-white font-roboto">
 				<Col className="text-white font-roboto p-0" md={6}>
 					<i>merch</i>

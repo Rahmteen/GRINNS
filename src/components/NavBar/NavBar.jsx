@@ -8,7 +8,7 @@ import LOGO from '../../../assets/images/123vect.png';
 const NavBar = () => {
 	return (
 		<Fragment>
-			<Container className="main-nav-container pt-5">
+			<Container className="main-nav-container pt-5 mb-3">
 				<Row className="main-nav-row ">
 					<Col className="text-center pt-2 pb-2" md={12}>
 						<Navbar variant="light" collapseOnSelect expand="lg">
@@ -39,19 +39,6 @@ const NavBar = () => {
 					</Col>
 				</Row>
 				</Container>
-				{/* <Container className="p-0 social-nav pb-4">
-				<Row>
-					<Col className="text-right mt-3 social-nav">
-						<span>
-							<i className="fab fa-instagram-square mr-2"></i>
-							<i className="fab fa-twitter-square mr-2"></i>
-							<i className="fab fa-tiktok mr-2"></i>
-							<i className="fab fa-spotify mr-2"></i>
-							<i className="fab fa-apple mr-2"></i>
-						</span>
-					</Col>
-				</Row>
-				</Container> */}
 		</Fragment>
 	);
 };
