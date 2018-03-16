@@ -24,23 +24,11 @@ const BandImages = () => {
 					<img className="d-block w-100 mx-auto" src={BG3} alt="Third slide" />
 				</Carousel.Item>
 			</Carousel>
-			{/* <Container className="p-0 social-nav pb-4">
-				<Row>
-					<Col className="text-right mt-3 social-nav">
-						<span>
-							<i className="fab fa-instagram-square mr-2"></i>
-							<i className="fab fa-twitter-square mr-2"></i>
-							<i className="fab fa-tiktok mr-2"></i>
-							<i className="fab fa-spotify mr-2"></i>
-							<i className="fab fa-apple mr-2"></i>
-						</span>
-					</Col>
-				</Row>
-			</Container> */}
+
 		</Fragment>
 	);
 };
 
 export default BandImages;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Mon Mar 5 12:06 2018 +0100" git commit --amend --no-edit --date "Mon Mar 5 12:06 2018 +0100"
+// LC_ALL=C GIT_COMMITTER_DATE="Fri Mar 16 12:51 2018 +0100" git commit --amend --no-edit --date "Fri Mar 16 12:51 2018 +0100"

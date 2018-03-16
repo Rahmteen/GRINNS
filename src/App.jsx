@@ -7,6 +7,7 @@ import Merch from './pages/Merch';
 
 // COMPONENTS
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import "../assets/styles/Custom.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
 				<Route exact path="/" component={Landing}></Route>
 				<Route exact path="/merch" component={Merch}></Route>
 			</Switch>
-			{/* <Route path="/store" component={Footer}></Route> */}
+			<Route path="/" component={Footer}></Route>
 			
 		</div>
 	);
