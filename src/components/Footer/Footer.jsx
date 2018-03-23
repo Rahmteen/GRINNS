@@ -12,8 +12,7 @@ const Footer = () => {
 				<Nav className="mt-4">
 					<Row className="text-center mx-auto mb-4 mt-4">
 						<Col className=" mx-auto mt-3 social-nav text-white font-roboto" md={12}>
-							<i className="mr-2 my-auto">GRINNS 2021 -</i>
-
+							<i className="mr-3 my-auto">GRINNS</i>
 							<i className="fab fa-instagram-square mr-2"></i>
 							<i className="fab fa-twitter-square mr-2"></i>
 							<i className="fab fa-tiktok mr-2"></i>

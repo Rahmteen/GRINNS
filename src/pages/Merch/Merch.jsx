@@ -8,7 +8,14 @@ import MerchBar from '../../components/MerchBar';
 const Merch = () => {
 	return (
 		<Fragment>
-        <MerchBar></MerchBar>
+			<Container>
+				<Row className="underline mb-4 text-white font-roboto ">
+					<Col className="text-white font-roboto p-0 h4 " md={6}>
+						<i>merch</i>
+					</Col>
+				</Row>
+				<MerchBar></MerchBar>
+			</Container>
 		</Fragment>
 	);
 };

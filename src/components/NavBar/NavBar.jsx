@@ -23,7 +23,7 @@ const NavBar = () => {
 								</Row>
 								<Navbar.Collapse id="responsive-navbar-nav">
 									<Nav className="me-auto main-nav ">
-										<Nav.Link as={Link} to="/merch" className="font-roboto">
+										<Nav.Link href="https://grinns.myshopify.com/"  className="font-roboto">
 											merch
 										</Nav.Link>
 										<Nav.Link as={Link} to="/home" className="font-roboto">
