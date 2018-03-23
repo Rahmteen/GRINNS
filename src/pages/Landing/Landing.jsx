@@ -20,22 +20,22 @@ const Landing = () => {
 				<Image src={BG} width="60%" className="mx-auto text-center" fluid></Image>
 			</Row> */}
 			<BandImages></BandImages>
-			<Row className="underline mb-4 text-white font-roboto">
-				<Col className="text-white font-roboto p-0" md={6}>
+			<Row className="underline mb-4 text-white font-roboto ">
+				<Col className="text-white font-roboto p-0 h4 " md={6}>
 					<i>merch</i>
 				</Col>
-				<Col className=" text-right text-white font-roboto p-0" md={6}>
+				<Col className="text-right text-white font-roboto p-0 my-auto" md={6}>
 					<small>view all</small>
 				</Col>
 			</Row>
-			<Row>
+		
 				<MerchBar />
-			</Row>
+	
 			<Row className="underline mb-4 text-white font-roboto">
-				<Col className="text-white font-roboto p-0" md={6}>
+				<Col className="text-white font-roboto p-0 h4" md={6}>
 					<i>releases</i>
 				</Col>
-				<Col className=" text-right text-white font-roboto p-0" md={6}>
+				<Col className=" text-right text-white font-roboto p-0 my-auto" md={6}>
 					<small>view all</small>
 				</Col>
 			</Row>

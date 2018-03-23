@@ -15,8 +15,8 @@ import axios from 'axios';
 const MerchBar = () => {
 	return (
 		<Fragment>
-			<CardDeck className="mx-auto">
-				<Card className="merch-card" style={{ width: '15rem' }}>
+			<CardDeck className="merch-container">
+				<Card className="merch-card" style={{ width: '100%' }}>
 					<Card.Img variant="top" src={red} />
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
@@ -28,7 +28,7 @@ const MerchBar = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card className="merch-card" style={{ width: '15rem' }}>
+				<Card className="merch-card" style={{ width: '100%' }}>
 					<Card.Img variant="top" src={block} />
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
@@ -40,7 +40,7 @@ const MerchBar = () => {
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card className="merch-card" style={{ width: '15rem' }}>
+				<Card className="merch-card" style={{ width: '100%' }}>
 					<Card.Img variant="top" src={ghv} width="90%" />
 					<Card.Body className="">
 						<Card.Text className="text-center text-white font-roboto">

@@ -9,27 +9,27 @@ const MusicBar = () => {
 	return (
 		<Fragment>
 			<CardDeck className="mx-auto text-center d-flex align-content-center music-container">
-				<Card bg={'dark'} style={{ width: '12rem' }}>
+				<Card bg={'dark'} style={{ width: '100%' }}>
 					<Card.Img variant="top" src={omw} />
 					<Card.Body className="mx-auto">
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
 					</Card.Body>
 				</Card>
 
-				<Card bg={'dark'} style={{ width: '12rem' }}>
+				<Card bg={'dark'} style={{ width: '100%' }}>
 					<Card.Img variant="top" src={mits} />
 					<Card.Body className="mx-auto">
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">made in the shade</Card.Title>
 					</Card.Body>
 				</Card>
 
-				<Card bg={'dark'} style={{ width: '12rem' }}>
+				<Card bg={'dark'} style={{ width: '100%' }}>
 					<Card.Img variant="top" src={taste} />
 					<Card.Body className="mx-auto">
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
 					</Card.Body>
 				</Card>
-				<Card bg={'dark'} style={{ width: '12rem' }}>
+				<Card bg={'dark'} style={{ width: '100%' }}>
 					<Card.Img variant="top" src={re} />
 					<Card.Body className="mx-auto">
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">reunion</Card.Title>
