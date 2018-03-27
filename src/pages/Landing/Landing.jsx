@@ -6,7 +6,6 @@ import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap
 import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 
 import NavBar from '../../components/NavBar';
-import YouTube from '../../components/Youtube/YouTube';
 import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
 import BG from '../../../assets/images/band/bg1.png';
@@ -21,7 +20,7 @@ const Landing = () => {
 			</Row> */}
 			<BandImages></BandImages>
 			<Row className="underline mb-4 text-white font-roboto ">
-				<Col className="text-white font-roboto p-0 h4 " md={6}>
+				<Col className="text-white font-roboto p-0 h5 " md={6}>
 					<i>merch</i>
 				</Col>
 				<Col className="text-right text-white font-roboto p-0 my-auto" md={6}>
@@ -32,7 +31,7 @@ const Landing = () => {
 				<MerchBar />
 	
 			<Row className="underline mb-4 text-white font-roboto">
-				<Col className="text-white font-roboto p-0 h4" md={6}>
+				<Col className="text-white font-roboto p-0 h5" md={6}>
 					<i>releases</i>
 				</Col>
 				<Col className=" text-right text-white font-roboto p-0 my-auto" md={6}>

@@ -3,7 +3,7 @@ import React, { useState, useEffect, useContext } from 'react';
 
 // PAGES
 import Landing from './pages/Landing'
-import Merch from './pages/Merch';
+
 
 // COMPONENTS
 import NavBar from './components/NavBar';
@@ -17,7 +17,6 @@ const App = () => {
 			<Route path="/merch" component={NavBar}></Route>
 			<Switch>
 				<Route exact path="/" component={Landing}></Route>
-				<Route exact path="/merch" component={Merch}></Route>
 			</Switch>
 			<Route path="/" component={Footer}></Route>
 			

@@ -7,7 +7,6 @@ import BG1 from '../../../assets/images/band/bg1.png';
 import BG2 from '../../../assets/images/band/bg2.png';
 import BG3 from '../../../assets/images/band/bg3.png';
 import NavBar from '../NavBar';
-import YouTube from '../Youtube/YouTube';
 import axios from 'axios';
 
 const BandImages = () => {

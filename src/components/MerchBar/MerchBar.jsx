@@ -9,7 +9,6 @@ import block from '../../../assets/images/merch/blocktee.png';
 import ghv from '../../../assets/images/merch/ghv.png';
 
 import NavBar from '../NavBar';
-import YouTube from '../Youtube/YouTube';
 import axios from 'axios';
 
 const MerchBar = () => {
