@@ -12,7 +12,7 @@ import axios from 'axios';
 const BandImages = () => {
 	return (
 		<Fragment>
-			<Carousel className="mb-5" controls={false} indicators={false} interval={5000}>
+			<Carousel style={{ position: 'relative' }} fade={true} className="mb-5" controls={false} indicators={false} interval={5000}>
 				<Carousel.Item>
 					<img className="d-block w-100 mx-auto" src={BG1} alt="First slide" />
 				</Carousel.Item>

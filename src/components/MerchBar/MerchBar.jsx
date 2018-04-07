@@ -7,6 +7,7 @@ import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 import red from '../../../assets/images/merch/redtee.png';
 import block from '../../../assets/images/merch/blocktee.png';
 import ghv from '../../../assets/images/merch/ghv.png';
+import ghc from '../../../assets/images/merch/ghc.png';
 
 import NavBar from '../NavBar';
 import axios from 'axios';
@@ -47,7 +48,19 @@ const MerchBar = () => {
 								<small>GRINNS</small>{' '}
 							</i>
 							<br />
-							golden hour
+							golden hour - [ vinyl ]
+						</Card.Text>
+					</Card.Body>
+				</Card>
+				<Card className="merch-card" style={{ width: '100%' }}>
+					<Card.Img variant="top" src={ghc} width="90%" />
+					<Card.Body className="">
+						<Card.Text className="text-center text-white font-roboto">
+							<i>
+								<small>GRINNS</small>{' '}
+							</i>
+							<br />
+							golden hour - [ cd ]
 						</Card.Text>
 					</Card.Body>
 				</Card>

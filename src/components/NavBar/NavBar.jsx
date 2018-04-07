@@ -26,7 +26,7 @@ const NavBar = () => {
 										<Nav.Link href="https://grinns.myshopify.com/"  className="font-roboto">
 											merch
 										</Nav.Link>
-										<Nav.Link as={Link} to="/home" className="font-roboto">
+										<Nav.Link as={Link} to="/tour" className="font-roboto">
 											tour
 										</Nav.Link>
 										<Nav.Link as={Link} to="/content" className="font-roboto">
