@@ -19,6 +19,14 @@ const Footer = () => {
 							<i className="fab fa-spotify mr-2"></i>
 							<i className="fab fa-apple mr-2"></i>
 						</Col>
+						<Col className="contact-booking mt-2" md={12}>
+							<a className="mr-3" href="mailto:thegrinns@gmail.com">
+								<i>contact</i>
+							</a>||
+							<a className="ml-3" href="mailto:dboyle@apa-agency.com">
+								<i>booking</i>
+							</a>
+						</Col>
 					</Row>
 				</Nav>
 			</Container>

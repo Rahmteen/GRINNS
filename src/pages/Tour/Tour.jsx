@@ -10,12 +10,12 @@ import sa20 from '../../../assets/images/shows/sa-20.png';
 
 const Tour = () => {
 	return (
-		<Container className="tour-container text-white ">
-			<Row className="mt-2 mb-2">
-				<Col as={Button} className="font-roboto">08/07 - San Diego, CA @ SOMA</Col>
+		<Container className="tour-container text-white mt-5">
+			<Row className="mt-3 mb-3 d-flex justify-content-center">
+			<Col as={Button} variant="danger" className="tour-button text-center font-roboto text-white" md={6}><i>08/07/21</i><div>San Diego, CA</div>SOMA</Col>
 			</Row>
-			<Row className="mt-2 mb-2">
-				<Col as={Button} className="font-roboto">08/20 - Santa Ana, CA @ The Observatory</Col>
+			<Row className="mt-3 mb-3 d-flex justify-content-center">
+				<Col as={Button} variant="danger" className="tour-button text-center font-roboto text-white" md={6}><i>08/20/21</i><div>Santa Ana, CA</div>The Observatory</Col>
 			</Row>
 		</Container>
 	);
