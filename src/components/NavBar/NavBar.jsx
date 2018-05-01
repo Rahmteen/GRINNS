@@ -29,12 +29,6 @@ const NavBar = () => {
 										<Nav.Link as={Link} to="/tour" className="font-roboto">
 											tour
 										</Nav.Link>
-										<Nav.Link as={Link} to="/content" className="font-roboto">
-											music
-										</Nav.Link>
-										<Nav.Link as={Link} to="/content" className="font-roboto">
-											contact
-										</Nav.Link>
 									</Nav>
 								</Navbar.Collapse>
 							</Container>

@@ -19,7 +19,7 @@ const Landing = () => {
 				<Image src={BG} width="60%" className="mx-auto text-center" fluid></Image>
 			</Row> */}
 			<BandImages></BandImages>
-			<Row className="underline mb-4 text-white font-roboto ">
+			<Row className="underline mb-4 mt-3 text-white font-roboto ">
 				<Col className="text-white font-roboto p-0 h5 " md={6}>
 					<i>merch</i>
 				</Col>

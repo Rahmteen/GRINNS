@@ -20,12 +20,12 @@ const Footer = () => {
 							<i className="fab fa-apple mr-2"></i>
 						</Col>
 						<Col className="contact-booking mt-2" md={12}>
-							<a className="mr-3" href="mailto:thegrinns@gmail.com">
-								<i>contact</i>
-							</a>||
-							<a className="ml-3" href="mailto:dboyle@apa-agency.com">
-								<i>booking</i>
-							</a>
+							<small><a className="mr-2" href="mailto:thegrinns@gmail.com">
+								contact
+							</a>|
+							<a className="ml-2" href="mailto:dboyle@apa-agency.com">
+								booking
+							</a></small>
 						</Col>
 					</Row>
 				</Nav>
