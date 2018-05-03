@@ -8,7 +8,7 @@ import LOGO from '../../../assets/images/123vect.png';
 const Footer = () => {
 	return (
 		<Fragment>
-			<Container className="pt-4 social-nav pb-4 mt-4 mx-auto">
+			<Container className="pt-4 social-nav pb-4 mt-4 pb-5 mx-auto">
 				<Nav className="mt-4">
 					<Row className="text-center mx-auto mb-4 mt-4">
 						<Col className=" mx-auto mt-3 social-nav text-white font-roboto" md={12}>

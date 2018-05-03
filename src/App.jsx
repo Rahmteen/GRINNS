@@ -18,7 +18,7 @@ const App = () => {
 				<Route exact path="/" component={Landing}></Route>
 				<Route path="/tour" component={Tour}></Route>
 			</Switch>
-			<Route path="/" component={Footer}></Route>
+			<Route exact path="/" component={Footer}></Route>
 		</div>
 	);
 };

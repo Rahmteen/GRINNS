@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server.js",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "webpack",
     "dev": "concurrently \"nodemon server.js\" \"webpack serve --hot --open\"",
     "prod": "webpack serve --open --hot",
     "serv": "nodemon server.js"

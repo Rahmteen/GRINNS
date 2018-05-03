@@ -8,7 +8,7 @@ import LOGO from '../../../assets/images/123vect.png';
 const NavBar = () => {
 	return (
 		<Fragment>
-			<Container className="main-nav-container pt-5 mb-3">
+			<Container className="main-nav-container pt-5 mb-2">
 				<Row className="main-nav-row ">
 					<Col className="text-center pt-2 pb-2" md={12}>
 						<Navbar variant="light" collapseOnSelect expand="lg">
@@ -23,7 +23,7 @@ const NavBar = () => {
 								</Row>
 								<Navbar.Collapse id="responsive-navbar-nav">
 									<Nav className="me-auto main-nav ">
-										<Nav.Link href="https://grinns.myshopify.com/"  className="font-roboto">
+										<Nav.Link href="https://www.grinns.shop"  className="font-roboto">
 											merch
 										</Nav.Link>
 										<Nav.Link as={Link} to="/tour" className="font-roboto">

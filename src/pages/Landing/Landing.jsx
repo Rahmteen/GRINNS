@@ -15,10 +15,8 @@ import BandImages from '../../components/BandImages';
 const Landing = () => {
 	return (
 		<Container className="landing-container">
-			{/* <Row className="text-center mx-auto">
-				<Image src={BG} width="60%" className="mx-auto text-center" fluid></Image>
-			</Row> */}
 			<BandImages></BandImages>
+			<br />
 			<Row className="underline mb-4 mt-3 text-white font-roboto ">
 				<Col className="text-white font-roboto p-0 h5 " md={6}>
 					<i>merch</i>
@@ -29,7 +27,9 @@ const Landing = () => {
 			</Row>
 		
 				<MerchBar />
-	
+			<br />
+			<br />
+			<br />
 			<Row className="underline mb-4 text-white font-roboto">
 				<Col className="text-white font-roboto p-0 h5" md={6}>
 					<i>releases</i>
