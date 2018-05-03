@@ -1,10 +1,10 @@
 {
-  "name": "3d-repo",
+  "name": "grinns",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server.js",
+    "start": "webpack serve --hot --open",
     "build": "webpack",
     "dev": "concurrently \"nodemon server.js\" \"webpack serve --hot --open\"",
     "prod": "webpack serve --open --hot",

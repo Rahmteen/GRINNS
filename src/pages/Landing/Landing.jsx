@@ -9,7 +9,7 @@ import NavBar from '../../components/NavBar';
 import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
 import BG from '../../../assets/images/band/bg1.png';
-import MusicBar from '../../components/MusicBar';
+import Music from '../../components/Music';
 import BandImages from '../../components/BandImages';
 
 const Landing = () => {
@@ -39,7 +39,7 @@ const Landing = () => {
 				</Col>
 			</Row>
 			<Row className="m-2">
-				<MusicBar />
+				<Music />
 			</Row>
 		</Container>
 	);

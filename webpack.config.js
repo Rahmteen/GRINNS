@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: "file-loader",
+        type: "asset/resource",
       },
       {
         test: /\.html$/i,
@@ -73,10 +73,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html",
       // favicon: '/assets/images/postmark-logo.png'
-    }),
-    new webpack.DefinePlugin({
-      'process.env': JSON.stringify(dotenv.config().parsed) // it will automatically pick up key values from .env file
-      })
+    })
   ],
   // resolve extensions for imports into future components
   resolve: {
