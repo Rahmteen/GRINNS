@@ -22,7 +22,7 @@ const Landing = () => {
 					<i>merch</i>
 				</Col>
 				<Col className="text-right text-white font-roboto p-0 my-auto" md={6}>
-					<small>view all</small>
+					<a className="text-white" href="https://www.grinns.shop/"><small>view all</small></a>
 				</Col>
 			</Row>
 		
@@ -35,7 +35,7 @@ const Landing = () => {
 					<i>releases</i>
 				</Col>
 				<Col className=" text-right text-white font-roboto p-0 my-auto" md={6}>
-					<small>view all</small>
+					<a className="text-white" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/196MfFl5VIfyX1ZBmJeWHc"><small>view all</small></a>
 				</Col>
 			</Row>
 			<Row className="m-2">

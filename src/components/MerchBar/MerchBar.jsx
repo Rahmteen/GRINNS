@@ -17,7 +17,9 @@ const MerchBar = () => {
 		<Fragment>
 			<CardDeck className="merch-container">
 				<Card className="merch-card" style={{ width: '100%' }}>
-					<Card.Img variant="top" src={red} />
+					<a href="https://www.grinns.shop/products/grinns-red-tee">
+						<Card.Img variant="top" src={red} />
+					</a>
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
@@ -29,7 +31,9 @@ const MerchBar = () => {
 					</Card.Body>
 				</Card>
 				<Card className="merch-card" style={{ width: '100%' }}>
-					<Card.Img variant="top" src={block} />
+					<a href="https://www.grinns.shop/products/grinns-block-tee">
+						<Card.Img variant="top" src={block} />
+					</a>
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
@@ -41,7 +45,9 @@ const MerchBar = () => {
 					</Card.Body>
 				</Card>
 				<Card className="merch-card" style={{ width: '100%' }}>
-					<Card.Img variant="top" src={ghv} width="90%" />
+					<a href="https://www.grinns.shop/products/golden-hour-vinyl">
+						<Card.Img variant="top" src={ghv} width="90%" />
+					</a>
 					<Card.Body className="">
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
@@ -53,7 +59,9 @@ const MerchBar = () => {
 					</Card.Body>
 				</Card>
 				<Card className="merch-card" style={{ width: '100%' }}>
-					<Card.Img variant="top" src={ghc} width="90%" />
+					<a href="https://www.grinns.shop/products/the-grinns-golden-hour">
+						<Card.Img variant="top" src={ghc} width="90%" />
+					</a>
 					<Card.Body className="">
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
@@ -68,7 +76,6 @@ const MerchBar = () => {
 		</Fragment>
 	);
 };
-
 
 export default MerchBar;
 
