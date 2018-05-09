@@ -33,7 +33,7 @@ const MusicBar = () => {
 						<Card.Img variant="top" src={tasteofwater} />
 					</a>
 					<Card.Body className="mx-auto">
-						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
+						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">taste of water</Card.Title>
 					</Card.Body>
 				</Card>
 				<Card bg={'dark'} style={{ width: '100%' }}>
