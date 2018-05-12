@@ -11,14 +11,14 @@ import sa20 from '../../../assets/images/shows/sa-20.png';
 const Tour = () => {
 	return (
 		<Container className="tour-container text-white mt-5">
-			<Row className="mt-3 mb-3 d-flex justify-content-center">
+			{/* <Row className="mt-3 mb-3 d-flex justify-content-center">
 				<Col as={Button} variant="danger" className="tour-button text-center font-roboto text-white" md={6}>
 					<a target="_blank" rel="noopener noreferrer" className="text-white" href="https://www.somasandiego.com/event/grinns/">
 						<i>08/07/21</i>
 						<div>San Diego, CA</div>SOMA
 					</a>
 				</Col>
-			</Row>
+			</Row> */}
 			<Row className="mt-3 mb-3 d-flex justify-content-center">
 				<Col as={Button} variant="danger" className="tour-button text-center font-roboto text-white" md={6}>
 					<a target="_blank" rel="noopener noreferrer" className="text-white" href="https://www.observatoryoc.com/EventDetail?tmeventid=vvG10ZpihDoxo9&offerid=0">
