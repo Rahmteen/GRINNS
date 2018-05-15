@@ -54,7 +54,7 @@ const MerchBar = () => {
 								<small>GRINNS</small>{' '}
 							</i>
 							<br />
-							golden hour - [ vinyl ]
+							golden hour - vinyl 
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -68,7 +68,7 @@ const MerchBar = () => {
 								<small>GRINNS</small>{' '}
 							</i>
 							<br />
-							golden hour - [ cd ]
+							golden hour - cd 
 						</Card.Text>
 					</Card.Body>
 				</Card>
