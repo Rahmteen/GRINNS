@@ -11,7 +11,7 @@ const MusicBar = () => {
 		<Fragment>
 			<CardDeck className="mx-auto text-center d-flex align-content-center music-container">
 				<Card bg={'dark'} style={{ width: '100%' }}>
-					<a>
+					<a href="https://lnk.to/cadc4tIj">
 						<Card.Img variant="top" src={onmyown} />
 					</a>
 					<Card.Body className="mx-auto">
@@ -20,7 +20,7 @@ const MusicBar = () => {
 				</Card>
 
 				<Card bg={'dark'} style={{ width: '100%' }}>
-					<a>
+					<a href="https://lnk.to/9md2E6ke">
 						<Card.Img variant="top" src={madeintheshade} />
 					</a>
 					<Card.Body className="mx-auto">
@@ -29,7 +29,7 @@ const MusicBar = () => {
 				</Card>
 
 				<Card bg={'dark'} style={{ width: '100%' }}>
-					<a>
+					<a href="https://lnk.to/J1tFOdKN">
 						<Card.Img variant="top" src={tasteofwater} />
 					</a>
 					<Card.Body className="mx-auto">
