@@ -3,9 +3,6 @@ import { StateContext } from '../../providers/StateProvider';
 import { Link } from 'react-router-dom';
 import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap';
 
-import LOGO from '../../../assets/images/123vect.png';
-import toggle from "../../../assets/images/toggle.png"
-
 const NavBar = () => {
 	return (
 		<Fragment>
@@ -17,7 +14,7 @@ const NavBar = () => {
 								<Row className="nav-mobile-row mx-auto">
 									<Col md={12}>
 										<Navbar.Brand as={Link} to="/" className="text-right">
-											<Image src={LOGO} width="120em" className="text-right" />
+											<Image src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/gr_white_logo.png"} width="120em" className="text-right" />
 										</Navbar.Brand>
 										<Navbar.Toggle  aria-controls="responsive-navbar-nav" style={{borderColor: "transparent"}}><i className="text-white fas fa-smile"></i></Navbar.Toggle>
 									</Col>
@@ -43,4 +40,4 @@ const NavBar = () => {
 
 export default NavBar;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Tue Feb 13 12:11 2018 +0100" git commit --amend --no-edit --date "Tue Feb 13 12:11 2018 +0100"
+
