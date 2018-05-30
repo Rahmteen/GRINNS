@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useContext, Fragment } from 'react';
-import { StateContext } from '../../providers/StateProvider';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap';
+import { Container, Col, Row, Image, Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => {
 	return (
