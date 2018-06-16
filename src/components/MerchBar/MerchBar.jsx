@@ -1,68 +1,63 @@
-import React, { Fragment } from 'react';
-import { Card, CardDeck } from 'react-bootstrap';
-
-import red from '../../../assets/images/merch/redtee.png';
-import block from '../../../assets/images/merch/blocktee.png';
-import ghv from '../../../assets/images/merch/ghv.png';
-import ghc from '../../../assets/images/merch/ghc.png';
+import React, { Fragment } from "react";
+import { Card, CardDeck } from "react-bootstrap";
 
 const MerchBar = () => {
 	return (
 		<Fragment>
 			<CardDeck className="merch-container">
-				<Card className="merch-card" style={{ width: '100%' }}>
+				<Card className="merch-card" style={{ width: "100%" }}>
 					<a href="https://www.grinns.shop/products/grinns-red-tee">
-						<Card.Img variant="top" src={red} />
+						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/merch/redtee.png"} />
 					</a>
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
-								<small>GRINNS</small>{' '}
+								<small>GRINNS</small>{" "}
 							</i>
 							<br />
 							red tee
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card className="merch-card" style={{ width: '100%' }}>
+				<Card className="merch-card" style={{ width: "100%" }}>
 					<a href="https://www.grinns.shop/products/grinns-block-tee">
-						<Card.Img variant="top" src={block} />
+						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/merch/blocktee.png"} />
 					</a>
 					<Card.Body>
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
-								<small>GRINNS</small>{' '}
+								<small>GRINNS</small>{" "}
 							</i>
 							<br />
 							block tee
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card className="merch-card" style={{ width: '100%' }}>
+				<Card className="merch-card" style={{ width: "100%" }}>
 					<a href="https://www.grinns.shop/products/golden-hour-vinyl">
-						<Card.Img variant="top" src={ghv} width="90%" />
+						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/merch/ghv.png"} width="90%" />
 					</a>
 					<Card.Body className="">
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
-								<small>GRINNS</small>{' '}
+								<small>GRINNS</small>{" "}
 							</i>
 							<br />
-							golden hour - vinyl 
+							golden hour - vinyl
 						</Card.Text>
 					</Card.Body>
 				</Card>
-				<Card className="merch-card" style={{ width: '100%' }}>
+				<Card className="merch-card" style={{ width: "100%" }}>
 					<a href="https://www.grinns.shop/products/the-grinns-golden-hour">
-						<Card.Img variant="top" src={ghc} width="90%" />
+						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/merch/ghc.png"} width="90%" />
 					</a>
 					<Card.Body className="">
 						<Card.Text className="text-center text-white font-roboto">
 							<i>
-								<small>GRINNS</small>{' '}
+								<small>GRINNS</small>{" "}
 							</i>
 							<br />
-							golden hour - cd 
+							golden hour - cd
 						</Card.Text>
 					</Card.Body>
 				</Card>
@@ -72,4 +67,3 @@ const MerchBar = () => {
 };
 
 export default MerchBar;
-
