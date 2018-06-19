@@ -17,5 +17,3 @@ const Tour = () => {
 };
 
 export default Tour;
-
-// LC_ALL=C GIT_COMMITTER_DATE="Tue Sept 4 10:11 2018 +0100" git commit --amend --no-edit --date "Tue Sept 4 10:11 2018 +0100"
