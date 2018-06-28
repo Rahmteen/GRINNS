@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Card, CardDeck, Col, Row, Image, Button } from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
+
 import madeintheshade from '../../../assets/images/mits.png';
 import onmyown from '../../../assets/images/omw.png';
 import tasteofwater from '../../../assets/images/taste.png';
