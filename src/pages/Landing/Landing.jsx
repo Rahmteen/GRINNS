@@ -1,14 +1,7 @@
-import React, { useState, useEffect, useContext, Fragment } from 'react';
-import { StateContext } from '../../providers/StateProvider';
-import { Link } from 'react-router-dom';
-import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap';
+import React from 'react';
+import { Container, Col, Row } from 'react-bootstrap';
 
-import LOGO from '../../../assets/images/GRINNS_LOGO.png';
-
-import NavBar from '../../components/NavBar';
-import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
-import BG from '../../../assets/images/band/bg1.png';
 import Music from '../../components/Music';
 import BandImages from '../../components/BandImages';
 
@@ -25,7 +18,6 @@ const Landing = () => {
 					<a className="text-white" href="https://www.grinns.shop/"><small>view all</small></a>
 				</Col>
 			</Row>
-		
 				<MerchBar />
 			<br />
 			<br />
