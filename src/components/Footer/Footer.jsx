@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { Container, Col, Row, Nav } from 'react-bootstrap';
+import React, { Fragment } from "react";
+import { Container, Col, Row, Nav } from "react-bootstrap";
 
 const Footer = () => {
 	return (
@@ -44,5 +44,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
