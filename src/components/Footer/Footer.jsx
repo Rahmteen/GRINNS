@@ -1,9 +1,5 @@
-import React, { useState, useEffect, useContext, Fragment } from 'react';
-import { StateContext } from '../../providers/StateProvider';
-import { Link } from 'react-router-dom';
-import { Container, Col, Row, Image, Button, Navbar, Nav } from 'react-bootstrap';
-
-import LOGO from '../../../assets/images/123vect.png';
+import React, { Fragment } from 'react';
+import { Container, Col, Row, Nav } from 'react-bootstrap';
 
 const Footer = () => {
 	return (
@@ -49,4 +45,4 @@ const Footer = () => {
 
 export default Footer;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Tue Feb 13 12:11 2018 +0100" git commit --amend --no-edit --date "Tue Feb 13 12:11 2018 +0100"
+
