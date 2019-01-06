@@ -12,13 +12,13 @@ const Landing = () => {
 			<br />
 			<Row>
 				<Col md={12}>
-					<marquee className="font-roboto text-white">
+					<p className="font-roboto text-center text-white">
 						{" "}
 						<Image className="pr-2" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/gr_white_logo.png"} width="50em" className="text-right text-white" />{" "}
 						<i>
 							<a className="text-yellow" target="_blank" rel="noopener noreferrer" href="https://www.grinns.shop/">merch drop #1</a> live now!
 						</i>
-					</marquee>
+					</p>
 				</Col>
 			</Row>
 			<Row className="underline text-white mb-4 mt-5 font-roboto ">
