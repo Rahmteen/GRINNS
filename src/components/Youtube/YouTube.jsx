@@ -11,8 +11,8 @@ const YouTube = () => {
 		<Fragment>
 			<Container className="youtube-container mt-4 mb-2">
 				<Row>
-					<Col className="text-left youtube-title mb-2 mt-2 p-0" md={12}>
-						taste of water music video
+					<Col className="text-left youtube-title mt-2 font-roboto" md={12}>
+						taste of water
 					</Col>
 				</Row>
 				<Row className="youtube-featured">
@@ -21,7 +21,7 @@ const YouTube = () => {
 					</Col>
 				</Row>
 				<Row>
-					<Col className="text-right youtube-title mb-2 mt-2 p-0" md={12}>
+					<Col className="text-right youtube-title mb-2 font-roboto" md={12}>
 						view all
 					</Col>
 				</Row>

@@ -11,8 +11,8 @@ import axios from 'axios';
 
 const Landing = () => {
 	return (
-		<Container className="landing-container p-4" fluid>
-        <NavBar />
+		<Container className="landing-container" fluid>
+        {/* <NavBar /> */}
         <YouTube />
 		</Container>
 	);

@@ -14,20 +14,19 @@ import axios from 'axios';
 const MerchItem = () => {
 	return (
 		<Fragment>
-
-				<Card className="merch-card" style={{ width: '16rem' }}>
-					<Card.Img variant="top" src={red} />
-					<Card.Body>
-						<Card.Title className="text-center">GRINNS RED TEE</Card.Title>
-					</Card.Body>
-				</Card>
-
-				<Card className="merch-card" style={{ width: '16rem' }}>
-					<Card.Img variant="top" src={block} />
-					<Card.Body>
-						<Card.Title className="text-center">GRINNS BLOCK TEE</Card.Title>
-					</Card.Body>
-				</Card>
+			<Card className="merch-card" style={{ width: '13rem' }}>
+				<Card.Img variant="top" src={red} />
+				<Card.Body>
+				<Card.Text className="text-center text-white font-roboto"><i><small>GRINNS</small> </i> red tee</Card.Text>
+				</Card.Body>
+				
+			</Card>
+			<Card className="merch-card" style={{ width: '13rem' }}>
+				<Card.Img variant="top" src={block} />
+				<Card.Body>
+				<Card.Text className="text-center text-white font-roboto"><i><small>GRINNS</small> </i> block tee</Card.Text>
+				</Card.Body>
+			</Card>
 		</Fragment>
 	);
 };

@@ -12,8 +12,7 @@ import MerchBar from '../../components/MerchBar';
 
 const Landing = () => {
 	return (
-		<Container className="landing-container p-4" fluid>
-        <NavBar />
+		<Container className="landing-container" fluid>
         <MerchBar />
         <YouTube />
 		</Container>

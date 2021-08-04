@@ -1,15 +1,15 @@
 .main-nav-container {
-	background-color: goldenrod;
+	// background-color: rgb(46, 7, 7);
 
 	.main-nav {
 		font-weight: 900;
-		font-size: 0.95em;
+		font-size: 1.2em;
 		a {
 			transition: 0.3s ease-in-out;
-			color: royalblue !important;
+			color: rgb(255, 255, 255) !important;
 			&:hover {
 				transition: 0.3s ease-in-out;
-				color: deeppink !important;
+				color: rgb(185, 28, 41) !important;
 			}
 		}
 	}

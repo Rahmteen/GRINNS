@@ -10,7 +10,7 @@ import axios from 'axios';
 const MerchBar = () => {
 	return (
 		<Container className="merchbar-container p-4">
-			<Row className="merch-bar-row d-flex justify-content-center">
+			<Row className="merch-bar-row mt-2 mb-2 pt-2 pb-2">
 					<MerchItem></MerchItem>
 		
 			</Row>
