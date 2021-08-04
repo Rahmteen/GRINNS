@@ -11,7 +11,7 @@ import axios from 'axios';
 
 const Landing = () => {
 	return (
-		<Container className="landing-container" fluid>
+		<Container className="landing-container">
         {/* <NavBar /> */}
         <YouTube />
 		</Container>
@@ -20,4 +20,4 @@ const Landing = () => {
 
 export default Landing;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Thu Mar 1 11:11 2018 +0100" git commit --amend --no-edit --date "Thu Mar 1 11:11 2018 +0100"
+

@@ -8,7 +8,7 @@ import LOGO from '../../../assets/images/123vect.png';
 const NavBar = () => {
 	return (
 		<Fragment>
-			<Container className="main-nav-container pt-5" fluid>
+			<Container className="main-nav-container pt-5">
 				<Row className="main-nav-row ">
 					<Col className="text-center pt-2 pb-2" md={12}>
 						<Navbar variant="light" collapseOnSelect expand="lg">
@@ -39,7 +39,7 @@ const NavBar = () => {
 					</Col>
 				</Row>
 				</Container>
-				<Container className="p-0 social-nav">
+				<Container className="p-0 social-nav pb-4">
 				<Row>
 					<Col className="text-right mt-3 social-nav">
 						<span>

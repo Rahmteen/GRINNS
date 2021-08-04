@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useContext, Fragment } from 'react';
 import { StateContext } from '../../providers/StateProvider';
 import { Link } from 'react-router-dom';
-import { Container, Col, Row, Image, Button, Navbar, Nav, Card } from 'react-bootstrap';
-
+import { Container, Col, Row, Image, Button, Navbar, Nav, Card, CardDeck } from 'react-bootstrap';
 
 import MerchItem from '../MerchItem';
+import ShowItem from '../ShowItem';
 import axios from 'axios';
 
 const MerchBar = () => {
 	return (
-		<Container className="merchbar-container p-4">
-			<Row className="merch-bar-row mt-2 mb-2 pt-2 pb-2">
-					<MerchItem></MerchItem>
-		
-			</Row>
+		<Container className="merchbar-container mt-4">
+			<CardDeck>
+				<MerchItem></MerchItem>
+				<ShowItem></ShowItem>
+			</CardDeck>
 		</Container>
 	);
 };

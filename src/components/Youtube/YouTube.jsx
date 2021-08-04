@@ -9,10 +9,10 @@ import LOGO from '../../../assets/images/GRINNS_LOGO.png';
 const YouTube = () => {
 	return (
 		<Fragment>
-			<Container className="youtube-container mt-4 mb-2">
+			<Container className="youtube-container mt-4 mb-2 ">
 				<Row>
 					<Col className="text-left youtube-title mt-2 font-roboto" md={12}>
-						taste of water
+						<i>taste of water</i>
 					</Col>
 				</Row>
 				<Row className="youtube-featured">
@@ -22,7 +22,7 @@ const YouTube = () => {
 				</Row>
 				<Row>
 					<Col className="text-right youtube-title mb-2 font-roboto" md={12}>
-						view all
+						<i><small>view all</small></i>
 					</Col>
 				</Row>
 			</Container>
@@ -32,4 +32,4 @@ const YouTube = () => {
 
 export default YouTube;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Tue Feb 13 12:11 2018 +0100" git commit --amend --no-edit --date "Tue Feb 13 12:11 2018 +0100"
+

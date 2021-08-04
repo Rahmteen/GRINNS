@@ -55,7 +55,7 @@ app.use('/api', routes)
 });
 
 app.use((req, res) => res.status(404).send('This is not the page you\'re looking for...'));
-
+// LC_ALL=C GIT_COMMITTER_DATE="Thu Mar 1 11:11 2018 +0100" git commit --amend --no-edit --date "Thu Mar 1 11:11 2018 +0100"
 app.use((err, req, res, next) => {
   const defaultErr = {
     log: 'Express error handler caught unknown middleware error',
