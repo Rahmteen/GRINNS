@@ -14,7 +14,7 @@ import axios from 'axios';
 const ShowItem = () => {
 	return (
 		<Fragment>
-			<Card className="merch-card" style={{ width: '11rem' }}>
+			{/* <Card className="merch-card" style={{ width: '11rem' }}>
 				<Card.Img variant="top" src={sd8} />
 				<Card.Body>
 					<Card.Text className="text-center text-white font-roboto">
@@ -36,7 +36,8 @@ const ShowItem = () => {
 						block tee
 					</Card.Text>
 				</Card.Body>
-			</Card>
+			</Card> */}
+		
 		</Fragment>
 	);
 };

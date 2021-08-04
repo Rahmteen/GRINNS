@@ -9,12 +9,19 @@ import NavBar from '../../components/NavBar';
 import YouTube from '../../components/Youtube/YouTube';
 import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
+import BG from '../../../assets/images/BG_GRINNS.png';
 
 const Landing = () => {
 	return (
-		<Container className="landing-container" fluid>
-        <MerchBar />
-        <YouTube />
+		<Container className="landing-container">
+			<Row>
+				<Col className="mx-auto text-center my-auto" md={8}>
+					<Image width="80%" src={BG} />
+				</Col>
+			
+				<YouTube />
+				<MerchBar />
+			</Row>
 		</Container>
 	);
 };

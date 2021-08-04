@@ -9,12 +9,11 @@ import axios from 'axios';
 
 const MerchBar = () => {
 	return (
-		<Container className="merchbar-container mt-4">
-			<CardDeck>
+		// <Container className="merchbar-container mt-4">
+
 				<MerchItem></MerchItem>
-				<ShowItem></ShowItem>
-			</CardDeck>
-		</Container>
+				/* <ShowItem></ShowItem> */
+		/* </Container> */
 	);
 };
 
