@@ -5,12 +5,12 @@ import { Container, Col, Row, Image, Button, Navbar, Nav, Carousel } from 'react
 import ReactPlayer from 'react-player';
 
 import LOGO from '../../../assets/images/GRINNS_LOGO.png';
-import OMW from '../../../assets/images/mitsgreen.png';
+// import OMW from '../../../assets/images/shows/omw.png';
 
 const YouTube = () => {
 	return (
 		<Fragment>
-			<Col md={4} className="text-center text-white youtube-title mb-2 font-roboto mt-3" >
+			<Col md={6} className="text-center text-white youtube-title mb-2 font-roboto mt-3" >
 				<i>taste of water</i>
 				<br />
 				<Image className="mt-1 mb-1 " src={OMW} width="80%" />

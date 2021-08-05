@@ -10,20 +10,23 @@ import YouTube from '../../components/Youtube/YouTube';
 import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
 import BG from '../../../assets/images/BG_GRINNS.png';
+import MusicBar from '../../components/MusicBar';
 
 const Landing = () => {
 	return (
 		<Container className="landing-container">
 			<Row>
-			<Col className=" mt-4" md={8}>
+				<Col className=" mt-4" md={8}>
 					<MerchBar />
 				</Col>
-				<Col className=" my-auto" md={6}>
-					<Image width="100%" src={BG} />
+				<Col className=" mt-4" md={8}>
+					<MusicBar />
 				</Col>
+				{/* <Col className=" my-auto" md={6}>
+					<Image width="100%" src={BG} />
+				</Col> */}
 
-				<YouTube />
-
+				{/* <YouTube /> */}
 			</Row>
 		</Container>
 	);
