@@ -39,7 +39,7 @@ const NavBar = () => {
 					</Col>
 				</Row>
 				</Container>
-				<Container className="p-0 social-nav pb-4">
+				{/* <Container className="p-0 social-nav pb-4">
 				<Row>
 					<Col className="text-right mt-3 social-nav">
 						<span>
@@ -51,7 +51,7 @@ const NavBar = () => {
 						</span>
 					</Col>
 				</Row>
-				</Container>
+				</Container> */}
 		</Fragment>
 	);
 };

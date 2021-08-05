@@ -1,15 +1,14 @@
-.youtube-container {
-    .youtube-title {
-        font-size: 1.1em;
-        font-weight: 900;
-        color: rgb(255, 255, 255);
-    
-    }
-    .youtube-featured {
-        // background-color: rgb(126, 19, 19);
-    }
-    .youtube-player {
-        height: 25vh !important;
-        width: auto !important;
-    }
-}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }

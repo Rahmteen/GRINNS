@@ -1,47 +1,42 @@
-import React from 'react';
-import { Container, Card, CardGroup, Col, Row, Image, Button } from 'react-bootstrap';
+import React, { Fragment } from 'react';
+import { Container, Card, CardDeck, Col, Row, Image, Button } from 'react-bootstrap';
 import mits from '../../../assets/images/music/mits.png';
 import omw from '../../../assets/images/music/omw.png';
 import taste from '../../../assets/images/music/taste.png';
+import re from '../../../assets/images/music/reunion.jpeg';
 
 const MusicBar = () => {
 	return (
-		<div>
-			<Container>
-				<Row>
-					<Col>
-						<Card style={{ width: '18rem' }}>
-							<Card.Img variant="top" src={omw} />
-							<Card.Body>
-								<Card.Title>Card Title</Card.Title>
-								<Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-								<Button variant="primary">Go somewhere</Button>
-							</Card.Body>
-						</Card>
-					</Col>
-                    <Col>
-						<Card style={{ width: '18rem' }}>
-							<Card.Img variant="top" src={mits} />
-							<Card.Body>
-								<Card.Title>Card Title</Card.Title>
-								<Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-								<Button variant="primary">Go somewhere</Button>
-							</Card.Body>
-						</Card>
-					</Col>
-                    <Col>
-						<Card style={{ width: '18rem' }}>
-							<Card.Img variant="top" src={taste} />
-							<Card.Body>
-								<Card.Title>Card Title</Card.Title>
-								<Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-								<Button variant="primary">Go somewhere</Button>
-							</Card.Body>
-						</Card>
-					</Col>
-				</Row>
-			</Container>
-		</div>
+		<Fragment>
+			<CardDeck className="mx-auto text-center d-flex align-content-center music-container">
+				<Card bg={'dark'} style={{ width: '12rem' }}>
+					<Card.Img variant="top" src={omw} />
+					<Card.Body className="mx-auto">
+						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
+					</Card.Body>
+				</Card>
+
+				<Card bg={'dark'} style={{ width: '12rem' }}>
+					<Card.Img variant="top" src={mits} />
+					<Card.Body className="mx-auto">
+						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">made in the shade</Card.Title>
+					</Card.Body>
+				</Card>
+
+				<Card bg={'dark'} style={{ width: '12rem' }}>
+					<Card.Img variant="top" src={taste} />
+					<Card.Body className="mx-auto">
+						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
+					</Card.Body>
+				</Card>
+				<Card bg={'dark'} style={{ width: '12rem' }}>
+					<Card.Img variant="top" src={re} />
+					<Card.Body className="mx-auto">
+						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">reunion</Card.Title>
+					</Card.Body>
+				</Card>
+			</CardDeck>
+		</Fragment>
 	);
 };
 

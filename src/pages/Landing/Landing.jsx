@@ -9,24 +9,36 @@ import NavBar from '../../components/NavBar';
 import YouTube from '../../components/Youtube/YouTube';
 import axios from 'axios';
 import MerchBar from '../../components/MerchBar';
-import BG from '../../../assets/images/BG_GRINNS.png';
+import BG from '../../../assets/images/band/bg1.png';
 import MusicBar from '../../components/MusicBar';
 
 const Landing = () => {
 	return (
 		<Container className="landing-container">
+			<Row className="text-center mx-auto">
+				<Image src={BG} width="60%" className="mx-auto text-center" fluid></Image>
+			</Row>
+			<Row className="underline mb-4 text-white font-roboto">
+				<Col className="text-white font-roboto p-0" md={6}>
+					<i>merch</i>
+				</Col>
+				<Col className=" text-right text-white font-roboto p-0" md={6}>
+					<small>view all</small>
+				</Col>
+			</Row>
 			<Row>
-				<Col className=" mt-4" md={8}>
-					<MerchBar />
+				<MerchBar />
+			</Row>
+			<Row className="underline mb-4 text-white font-roboto">
+				<Col className="text-white font-roboto p-0" md={6}>
+					<i>releases</i>
 				</Col>
-				<Col className=" mt-4" md={8}>
-					<MusicBar />
+				<Col className=" text-right text-white font-roboto p-0" md={6}>
+					<small>view all</small>
 				</Col>
-				{/* <Col className=" my-auto" md={6}>
-					<Image width="100%" src={BG} />
-				</Col> */}
-
-				{/* <YouTube /> */}
+			</Row>
+			<Row className="m-2">
+				<MusicBar />
 			</Row>
 		</Container>
 	);
