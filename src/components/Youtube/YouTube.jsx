@@ -10,17 +10,17 @@ import OMW from '../../../assets/images/mitsgreen.png';
 const YouTube = () => {
 	return (
 		<Fragment>
-			<Col md={4} className="text-left text-white youtube-title mb-2 font-roboto mt-3" >
+			<Col md={4} className="text-center text-white youtube-title mb-2 font-roboto mt-3" >
 				<i>taste of water</i>
 				<br />
-				<Image className="mt-1 mb-1 " src={OMW} width="100%" />
+				<Image className="mt-1 mb-1 " src={OMW} width="80%" />
 				<br />
 				<i className="fab fa-youtube mt-3 pl-2"></i>
 				<i className="fab fa-spotify mt-3 pl-2"></i>
 				<i className="fab fa-apple mt-3 pl-2"></i>
-				{/* <i>
-					<small>view all</small>
-				</i> */}
+			</Col>
+			<Col md={2}>
+				
 			</Col>
 		</Fragment>
 	);

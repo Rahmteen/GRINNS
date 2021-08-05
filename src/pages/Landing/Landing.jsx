@@ -15,12 +15,15 @@ const Landing = () => {
 	return (
 		<Container className="landing-container">
 			<Row>
-				<Col className="mx-auto text-center my-auto" md={8}>
-					<Image width="80%" src={BG} />
+			<Col className=" mt-4" md={8}>
+					<MerchBar />
 				</Col>
-			
+				<Col className=" my-auto" md={6}>
+					<Image width="100%" src={BG} />
+				</Col>
+
 				<YouTube />
-				<MerchBar />
+
 			</Row>
 		</Container>
 	);
