@@ -1,3 +1,11 @@
+<img src="https://user-images.githubusercontent.com/71619815/128577066-1a120933-ac5d-404f-94ca-17f13df99d9b.png" width="400"/>
+
+
+# GRINNS 
+### Open Source Commerce & Content Platform
+![](https://img.shields.io/badge/issues-0-yellow)
+![](https://img.shields.io/badge/deployments-3-green)
+
 ### Features
 
 - Built on React/Node.js Framework.
@@ -7,10 +15,6 @@
 - Support identification, interpretation, fliter of the HTML tags.
 - Built mobile first and requires no sacrifices for any screen size interactions.
 
-# GRINNS 
-### Open Source Commerce & Content Platform
-![](https://img.shields.io/badge/issues-0-yellow)
-![](https://img.shields.io/badge/deployments-3-green)
 
 ### Installation
 ```git fork & git clone```
