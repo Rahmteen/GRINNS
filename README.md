@@ -1,4 +1,4 @@
-![124vect](https://user-images.githubusercontent.com/71619815/128577066-1a120933-ac5d-404f-94ca-17f13df99d9b.png)
+<img src="https://user-images.githubusercontent.com/71619815/128577066-1a120933-ac5d-404f-94ca-17f13df99d9b.png" width="400"/>
 
 
 # GRINNS 
