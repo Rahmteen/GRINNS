@@ -7,45 +7,36 @@ import BandImages from "../../components/BandImages";
 
 const Landing = () => {
 	return (
-		<Container className="landing-container">
-			{/* <BandImages></BandImages> */}
-			<br />
-			<Row>
-				<Col md={12}>
-					<p className="font-roboto text-center text-white">
-						{" "}
-						<Image className="pr-2" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/gr_white_logo.png"} width="50em" className="text-right text-white" />{" "}
-						<i>
-							<a className="text-yellow" target="_blank" rel="noopener noreferrer" href="https://www.grinns.shop/">merch drop #1</a> live now!
-						</i>
-					</p>
+		<Container className="landing-container p-0" fluid>
+			<BandImages></BandImages>
+			<Row className="text-white mb-4 font-roboto merch-row p-5">
+				<Col className="text-center text-white font-roboto h4" md={12}>
+					<i>GRINNS </i>
+					MERCH
 				</Col>
-			</Row>
-			<Row className="underline text-white mb-4 mt-5 font-roboto ">
-				<Col className=" text-white font-roboto p-0 h6 " md={6}>
-					<i>merch</i>
-				</Col>
-				<Col className="text-right font-roboto p-0 my-auto " md={6}>
-					<a className="text-white" href="https://www.grinns.shop/">
-						<small>view all</small>
+				<Col className="text-center font-roboto p-0 my-auto " md={12}>
+					<a className="text-blue" href="https://www.grinns.shop/">
+						<small>shop</small>
 					</a>
 				</Col>
 			</Row>
-			<MerchBar />
+			<Container className="pt-4">
+				<MerchBar />
+			</Container>
 			<br />
 			<br />
-			<br />
-			<Row className="underline mb-4 text-white font-roboto">
-				<Col className="text-white font-roboto p-0 h6" md={6}>
-					<i>releases</i>
+			<Row className="text-white mb-3 font-roboto merch-row p-5">
+				<Col className="text-center text-white font-roboto h4" md={12}>
+					{/* <i>GRINNS </i> */}
+					RELEASES
 				</Col>
-				<Col className=" text-right text-white font-roboto p-0 my-auto" md={6}>
-					<a className="text-white" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/196MfFl5VIfyX1ZBmJeWHc">
-						<small>view all</small>
+				<Col className="text-center font-roboto p-0 my-auto " md={12}>
+					<a className="text-blue" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/196MfFl5VIfyX1ZBmJeWHc">
+						{/* <small>view all</small> */}
 					</a>
 				</Col>
 			</Row>
-			<Row className="m-2">
+			<Row className="pt-4">
 				<Music />
 			</Row>
 		</Container>
@@ -54,4 +45,4 @@ const Landing = () => {
 
 export default Landing;
 
-// LC_ALL=C GIT_COMMITTER_DATE="Thu Mar 1 11:11 2018 +0100" git commit --amend --no-edit --date "Thu Mar 1 11:11 2018 +0100"
+// LC_ALL=C GIT_COMMITTER_DATE="Sun Jan 6 12:11 2018 +0100" git commit --amend --no-edit --date "Sun Jan 6 12:11 2018 +0100"

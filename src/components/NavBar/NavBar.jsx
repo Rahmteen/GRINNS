@@ -5,8 +5,8 @@ import { Container, Col, Row, Image, Navbar, Nav } from 'react-bootstrap';
 const NavBar = () => {
 	return (
 		<Fragment>
-			<Container className="main-nav-container pt-5 mb-2">
-				<Row className="main-nav-row ">
+			<Container className="main-nav-container pt-3 pb-3" fluid>
+				<Row className="main-nav-row">
 					<Col className="text-center pt-2 pb-2" md={12}>
 						<Navbar variant="light" collapseOnSelect expand="lg">
 							<Container fluid>

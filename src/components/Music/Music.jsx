@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
-import { Card, CardDeck } from 'react-bootstrap';
+import { Card, CardDeck, Container, Row, Col } from 'react-bootstrap';
 
 const MusicBar = () => {
 	return (
 		<Fragment>
-			<CardDeck className="mx-auto text-center d-flex align-content-center music-container">
+			<Container className="mx-auto text-center d-flex align-content-center music-container">
+				<Row>
+					<Col>
 			<Card className="p-4 card-shadow" bg={'dark'} style={{ width: '100%' }}>
 					<a href="https://lnk.to/SEARCHLIGHTS">
 						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/music/search.png"} />
@@ -13,6 +15,8 @@ const MusicBar = () => {
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">searchlights</Card.Title>
 					</Card.Body>
 				</Card>
+				</Col>
+				<Col>
 				<Card className="p-4 card-shadow" bg={'dark'} style={{ width: '100%' }}>
 					<a href="https://lnk.to/cadc4tIj">
 						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/music/omw.png"} />
@@ -21,7 +25,8 @@ const MusicBar = () => {
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">on my own</Card.Title>
 					</Card.Body>
 				</Card>
-
+				</Col>
+				<Col>
 				<Card className="p-4 card-shadow" bg={'dark'} style={{ width: '100%' }}>
 					<a href="https://lnk.to/9md2E6ke">
 						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/music/mits.png"} />
@@ -30,6 +35,8 @@ const MusicBar = () => {
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">made in the shade</Card.Title>
 					</Card.Body>
 				</Card>
+				</Col>
+				<Col>
 				<Card className="p-4 card-shadow" bg={'dark'} style={{ width: '100%' }}>
 					<a href="https://lnk.to/J1tFOdKN">
 						<Card.Img variant="top" src={"https://grinns-2021-s3-cfb.s3.amazonaws.com/music/taste.png"} />
@@ -38,7 +45,9 @@ const MusicBar = () => {
 						<Card.Title className="text-center text-white youtube-title mb-2 font-roboto mt-1">taste of water</Card.Title>
 					</Card.Body>
 				</Card>
-			</CardDeck>
+				</Col>
+				</Row>
+			</Container>
 		</Fragment>
 	);
 };

@@ -1,7 +1,14 @@
 .landing-container {
+	.merch-row {
+		background-color: #2ca5ac;
+	}
+	.image-div {
 
-
-
-
+		.header-image {
+            display: flex;
+            border-radius: 5px;
+            object-fit: cover;
+            min-width: 100% !important;
+		}
+	}
 }
-
