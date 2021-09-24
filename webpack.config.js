@@ -3,6 +3,7 @@
 // declare global plugins/depedencies
 let path = require("path");
 let HtmlWebpackPlugin = require("html-webpack-plugin");
+const CompressionPlugin = require("compression-webpack-plugin");
 const dotenv = require('dotenv')
 const webpack = require('webpack')
 
@@ -49,17 +50,13 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        type: "asset/resource",
-      },
-      {
         test: /\.html$/i,
         loader: 'html-loader',
       },
     ],
   },
   // set mode
-  mode: "development",
+  mode: "production",
   // setup dev server
   devServer: {
     host: "localhost",
@@ -73,7 +70,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html",
       // favicon: '/assets/images/postmark-logo.png'
-    })
+    }), new CompressionPlugin({
+      test: /\.js(\?.*)?$/i,
+    }),
   ],
   // resolve extensions for imports into future components
   resolve: {

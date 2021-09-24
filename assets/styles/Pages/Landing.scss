@@ -1,13 +1,15 @@
 .landing-container {
+	width: 100%;
+	overflow-x: hidden;
 	.merch-row {
-		background-color: #2ca5ac;
+		background-color: #222727;
 	}
 	.image-div {
 
 		.header-image {
-            // display: flex;
+            display: flex;
             // border-radius: 5px;
-            // object-fit: cover;
+            object-fit: cover;
             // min-width: 100% !important;
 		}
 	}

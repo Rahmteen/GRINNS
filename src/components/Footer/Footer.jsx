@@ -9,6 +9,8 @@ const Footer = () => {
 					<Row className="text-center mx-auto mb-4 mt-4">
 						<Col className=" mx-auto mt-3 social-nav text-white font-roboto" md={12}>
 							<i className="mr-3 my-auto">GRINNS</i>
+						</Col>
+						<Col className=" mx-auto mt-3 social-nav text-white font-roboto" md={12}>
 							<a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thegrinns/?hl=en">
 								<i className="fab fa-instagram-square mr-2"></i>
 							</a>
@@ -30,7 +32,7 @@ const Footer = () => {
 								<a className="mr-2" href="mailto:thegrinns@gmail.com">
 									contact
 								</a>
-								|
+								<small className="text-white"> | </small>
 								<a className="ml-2" href="mailto:dboyle@apa-agency.com">
 									booking
 								</a>

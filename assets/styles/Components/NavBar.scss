@@ -1,5 +1,8 @@
+.parallax-nav {
 .main-nav-container {
-	background-color:  #2ca5ac;
+	background-color:  #222727;
+	// padding-top: 2vh !important;
+	// padding-bottom: 2vh !important;
 	.main-nav {
 		font-weight: 900;
 		font-size: 1.2em;
@@ -24,4 +27,5 @@
 			}
 		}
 	}
+}
 }
