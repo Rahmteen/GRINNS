@@ -4,7 +4,6 @@
 let path = require("path");
 let HtmlWebpackPlugin = require("html-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
-const CopyPlugin = require('copy-webpack-plugin');
 const dotenv = require('dotenv')
 const webpack = require('webpack')
 
