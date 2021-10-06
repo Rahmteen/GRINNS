@@ -4,7 +4,7 @@
 # GRINNS 
 ### Open Source Commerce & Content Platform
 ![](https://img.shields.io/badge/issues-0-yellow)
-![](https://img.shields.io/badge/deployments-3-green)
+![](https://img.shields.io/badge/deployments-6-green)
 
 ### Features
 
