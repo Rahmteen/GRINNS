@@ -6,9 +6,9 @@ const Tour = () => {
 		<Container className="tour-container text-white mt-5">
 			<Row className="mt-3 mb-3 d-flex justify-content-center">
 				<Col as={Button} variant="danger" className="tour-button text-center font-roboto text-white" md={6}>
-					<a target="_blank" rel="noopener noreferrer" className="text-white" href="https://www.observatoryoc.com/EventDetail?tmeventid=vvG10ZpihDoxo9&offerid=0">
-						<i>10/01/21</i>
-						<div>Santa Ana, CA</div>The Observatory
+					<a target="_blank" rel="noopener noreferrer" className="text-white" href="https://www.ticketweb.com/event/nothing-fest-iii-garden-amphitheatre-tickets/11308975">
+						<i>11/13/21</i>
+						<div>Garden Grove, CA</div>The Garden Amp
 					</a>
 				</Col>
 			</Row>
