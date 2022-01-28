@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-import { Container, Col, Row, Nav } from "react-bootstrap";
+import { Container, Col, Row, Navbar } from "react-bootstrap";
 
 const Footer = () => {
 	return (
 		<Fragment>
 			<Container className="pt-4 social-nav pb-4 mt-4 pb-5 mx-auto footer-container" fluid>
-				<Nav className="mt-4">
+				<Navbar className="mt-4" fixed="bottom">
 					<Row className="text-center mx-auto mb-4 mt-4">
 						<Col className=" mx-auto mt-3 social-nav text-white font-roboto" md={12}>
 							<i className="mr-3 my-auto">GRINNS</i>
@@ -39,7 +39,7 @@ const Footer = () => {
 							</small>
 						</Col>
 					</Row>
-				</Nav>
+				</Navbar>
 			</Container>
 		</Fragment>
 	);

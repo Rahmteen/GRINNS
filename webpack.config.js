@@ -32,6 +32,13 @@ module.exports = {
         },
       },
       {
+        test: /\.(jpg|mp3|wav|webp|png|ogg|otf|gif|svg|mp4|mov)$/,
+        loader: 'file-loader',
+        options: {
+           name: '[path][name].[hash].[ext]',
+        },
+     },
+      {
         test: /\.(scss)$/,
         use: [
           {
@@ -56,7 +63,8 @@ module.exports = {
     ],
   },
   // set mode
-  mode: "production",
+  // mode: "production",
+  mode: "development",
   // setup dev server
   devServer: {
     host: "localhost",
