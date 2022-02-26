@@ -1,31 +1,7 @@
-.parallax-nav {
-.main-nav-container {
-	background-color:  transparent !important;
-	// padding-top: 2vh !important;
-	// padding-bottom: 2vh !important;
-	.main-nav {
-		font-weight: 900;
-		font-size: 1.2em;
-		a {
-			transition: 0.3s ease-in-out;
-			color: rgb(255, 255, 255) !important;
-			&:hover {
-				transition: 0.3s ease-in-out;
-				color: rgb(100, 197, 181) !important;
-			}
-		}
-	}
-}
-.social-nav {
-	color: white !important;
-	span {
-		i {
-			transition: 0.5s ease-in-out;
-			&:hover {
-				transition: 0.3s ease-in-out;
-				color: goldenrod !important;
-			}
-		}
-	}
-}
+.nav-container {
+  background-color: antiquewhite;
+  a {
+    font-family: "KCBargainBin-Inked" !important;
+    // font-size: 24px !important;
+  }
 }

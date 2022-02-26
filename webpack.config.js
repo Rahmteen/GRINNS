@@ -63,8 +63,8 @@ module.exports = {
     ],
   },
   // set mode
-  // mode: "production",
-  mode: "development",
+  mode: "production",
+  // mode: "development",
   // setup dev server
   devServer: {
     host: "localhost",
