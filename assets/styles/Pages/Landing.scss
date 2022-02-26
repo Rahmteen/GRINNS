@@ -1,16 +1,35 @@
 .landing-container {
-	width: 100%;
-	overflow-x: hidden;
-	.merch-row {
-		background-color: #222727;
-	}
-	.image-div {
+  background-color: #d7e6fa !important;
 
-		.header-image {
-            display: flex;
-            // border-radius: 5px;
-            object-fit: cover;
-            // min-width: 100% !important;
-		}
-	}
+  *:not(i) {
+    font-family: "KCBargainBin-Inked";
+  }
+
+  .show-card {
+    font-size: 0.9em;
+    font-family: "KCBargainBin";
+    background-color: #faebd7;
+    border-radius: 0px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+      rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.35s ease-in-out;
+    &:hover {
+      background-color: white !important;
+      transition: 0.35s ease-in-out;
+    }
+  }
+}
+
+.landing-merch {
+  background-color: #fad7e6 !important;
+  *:not(i) {
+    font-family: "KCBargainBin-Inked";
+  }
+}
+
+.landing-music {
+  background-color: #dad7fa !important;
+  *:not(i) {
+    font-family: "KCBargainBin-Inked";
+  }
 }

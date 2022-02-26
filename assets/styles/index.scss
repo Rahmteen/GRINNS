@@ -4,7 +4,16 @@
 }
 
 html {
-	background-color: transparent !important;
+	background-color: snow !important;
+}
+
+@font-face {
+    font-family: 'KCBargainBin';
+    src: url("/public/KCBargainBin.otf");
+}
+@font-face {
+    font-family: 'KCBargainBin-Inked';
+    src: url("/public/KCBargainBin-Inked.otf");
 }
 
 body {

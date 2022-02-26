@@ -3,7 +3,6 @@ import React, { useState, useEffect, useContext } from 'react';
 
 // PAGES
 import Landing from './pages/Landing';
-import Tour from './pages/Tour';
 
 // COMPONENTS
 import NavBar from './components/NavBar';
@@ -16,7 +15,7 @@ const App = () => {
 			<Route path="/" component={NavBar}></Route>
 			<Switch>
 				<Route exact path="/" component={Landing}></Route>
-				<Route path="/tour" component={Tour}></Route>
+				{/* <Route path="/tour" component={Tour}></Route> */}
 			</Switch>
 			<Route exact path="/" component={Footer}></Route>
 		</div>

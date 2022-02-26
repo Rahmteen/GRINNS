@@ -1,8 +1,13 @@
 .merch-card {
-    background-color: transparent !important;
-    border-color: transparent !important;
-
+  background-color: thistle !important;
+  transition: 0.35s ease-in-out;
+  // border-color: transparent !important;
+  border-radius: 0px !important;
+  &:hover {
+    background-color: pink !important;
+    transition: 0.35s ease-in-out;
+  }
 }
 .card-shadow {
-    // box-shadow: 0px 0px 2px  rgb(128, 43, 43);
+  // box-shadow: 0px 0px 2px  rgb(128, 43, 43);
 }
