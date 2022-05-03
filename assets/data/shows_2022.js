@@ -1,34 +1,35 @@
 const shows_2022 = [
   {
-    date: "Mar 11",
-    city: "Los Angeles, CA",
-    venue: "The Roxy Theatre",
-    link: "https://www.theroxy.com/events/detail/420991",
-    alert: "low ticket warning"
-  },
-  {
-    date: "Mar 21",
-    city: "Berkeley, CA",
-    venue: "Cornerstone",
-    link: "https://wl.seetickets.us/event/The-Grinns/466495?afflky=CornerstoneBerkeley",
-  },
-  {
-    date: "Mar 23",
+    date: "May 10",
     city: "Santa Cruz, CA",
     venue: "The Catalyst",
-    link: "https://catalystclub.com/event/live-in-the-atrium-the-grinns/",
+    link: "https://www.etix.com/ticket/p/3021165/the-psychedelic-furs--santa-cruz-the-catalyst",
+    // alert: "low ticket warning"
   },
   {
-    date: "Mar 25",
-    city: "Phoenix, AZ",
-    venue: "Valley Bar",
-    link: "https://wl.seetickets.us/event/The-Grinns/466399?afflky=ValleyBarPHX",
+    date: "May 11",
+    city: "San Luis Obispo, CA",
+    venue: "The Fremont",
+    link: "https://www.fremontslo.com/events/the-psychedelic-furs/",
   },
   {
-    date: "Mar 26",
-    city: "San Diego, CA",
-    venue: "Soma Mainstage",
-    link: "https://www.ticketweb.com/event/grinns-soma-mainstage-tickets/11769795",
+    date: "May 12",
+    city: "Las Vegas, NV",
+    venue: "House of Blues",
+    link: "https://www.houseofblues.com/lasvegas/EventDetail?tmeventid=G5vjZpzrr9oEU&offerid=139100",
+  },
+  {
+    date: "May 23",
+    city: "Los Angeles, CA",
+    venue: "LA County Fair",
+    link: "https://www.minorleaguemusic.live/",
+  },
+  {
+    date: "July 22",
+    city: "Venice, CA",
+    venue: "Venice West",
+    link: "https://www.ticketweb.com/event/the-grinns-the-venice-west-tickets/11935115",
+    // alert: "21+"
   },
 ];
 export default shows_2022;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Col, Row, Image, Card } from "react-bootstrap";
 import { Parallax } from "react-scroll-parallax";
+import { Link } from "react-router-dom";
 import MerchBar from "../../components/MerchBar/MerchBar.jsx";
 import shows_2022 from "../../../assets/data/shows_2022.js";
 import lgo_cover from "/public/lgo_cover.jpg";
@@ -84,17 +85,23 @@ const Landing = () => {
                     <Container
                       style={{
                         backgroundColor: show?.alert ? "indianred" : "#faebd7",
+						textDecoration: 'none',
+						color: 'black'
                       }}
                       className="my-2 show-card px-0"
+					  
                       xs={12}
+					  as={Link}
+					  to={{pathname: show.link}}
+					  target="_blank"
                     >
-                      <Row className="">
-                        <Col className="" md={6}>
-                          <Image width="55px" className="p-2" src={lgo_cover} />{" "}
-                          {show.city} @ {show.venue}
+                      <Row className="d-flex align-items-center px-3 py-2">
+                        <Col style={{fontSize: '1.3em'}} className="" md={6} xs={10}>
+                          {/* <Image width="55px" className="p-2" src={lgo_cover} /> */}
+                          <span style={{color: "#171717"}} className="">{show.date}</span> - {show.city} @ {show.venue}
                         </Col>
-                        <Col className="text-right ml-n3 my-auto mb-2" md={6}>
-                          <a style={{ color: 'black'}} href={show.link} target="_blank"><i class="fa-solid fa-ticket pb-1"></i>
+                        <Col className="text-right ml-n3 my-auto " md={6} xs={2}>
+                          <a style={{ color: 'black'}} href={show.link} target="_blank"><i class="fa-solid fa-ticket"></i>
                         </a>
                         </Col>
                       </Row>
